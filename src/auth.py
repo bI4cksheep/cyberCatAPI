@@ -2,7 +2,7 @@ import datetime
 import jwt
 from flask import jsonify
 
-jwtSecret = "*INSERT YOUR SECRET HERE*"
+jwtSecret = "21fa8f9ea6e580b4cfbb440d3cafe1c19f607086f44854de842d396efcf3fc69"
 
 def encode_auth_token(username, role):
     """
